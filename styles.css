@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    flex-wrap: wrap; /* Allow multiple rows */
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #f4f4f4;
+}
+
+.row {
+    margin-bottom: 20px; /* Add space between rows */
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff; /* Text color */
+    padding: 8px 20px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 20px; /* Rounded corners */
+    background-color: #4CAF50; /* Green background color */
+    transition: background-color 0.3s;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+nav a:hover {
+    background-color: #45a049; /* Darker green background color on hover */
+}
